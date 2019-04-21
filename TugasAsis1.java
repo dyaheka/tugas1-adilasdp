@@ -33,6 +33,16 @@ public class TugasAsis1 {
             System.out.println("Polinomial "+a+var+"^2 -"+(-b)+var+"-"+(-c)+" memiliki ");
         else if (b<0 && c>0)
             System.out.println("Polinomial "+a+var+"^2 -"+(-b)+var+"+"+c+" memiliki ");
+        else if (b==0 && c>0)
+            System.out.println("Polinomial "+a+var+"^2 +"+c+" memiliki ");
+        else if (b==0 && c<0)
+            System.out.println("Polinomial "+a+var+"^2 -"+(-c)+" memiliki ");
+        else if (c==0 && b>0)
+            System.out.println("Polinomial "+a+var+"^2 +"+b+var+" memiliki ");
+        else if (c==0 && b<0)
+            System.out.println("Polinomial "+a+var+"^2 -"+(-b)+var+" memiliki ");
+        else if (b==0 && c==0)
+            System.out.println("Polinomial "+a+var+"^2 memiliki ");
         
     //soal pertama yaitu diskriminan
     double D = (b*b)-4*a*c;
