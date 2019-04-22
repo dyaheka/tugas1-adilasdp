@@ -11,25 +11,36 @@ NRP: **[INI DIISI]**
 Input : -2 3 0
 
 Output :
-[INI DIISI]
-~~~~
-~~~~
+Polinomial -2.0x^2 +3.0x memiliki 
+1. Diskriminan			= 9.0
+2. Akar-akar dari polinomial	= 1.5 dan 0.0
+3. Titik Stasioner		= (0.75,1.125)
+4. Kecekungan kurva		= Bawah
+5. Nilai maksimum lokal		= 1.125
+
 Input :1 -2 1
 
 Output :
-[INI DIISI]
-~~~~
-~~~~
-Input : -3 0 3
+Polinomial -1.0x^2 +2.0x+1.0 memiliki 
+1. Diskriminan			= 8.0
+2. Akar-akar dari polinomial	= 2.414213562373095 dan -0.41421356237309515
+3. Titik Stasioner		= (1.0,2.0)
+4. Kecekungan kurva		= Bawah
+5. Nilai maksimum lokal		= 2.0
+
+Input : -3 0 -3
 
 Output :
-[INI DIISI]
-~~~~
-~~~~
+Polinomial -3.0x^2 -3.0 memiliki 
+1. Diskriminan			= -36.0
+2. Akar-akar dari polinomial	= -1.0i dan 1.0i
+3. Titik Stasioner		= (0,-3.0)
+4. Kecekungan kurva		= Bawah
+5. Nilai maksimum lokal		= -3.0
+
 Input : 0 0 0
 
 Output :
-[INI DIISI]
-~~~~
+Input a tidak boleh 0
 
 [link ke laporan]
